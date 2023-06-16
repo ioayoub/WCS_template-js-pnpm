@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@esbuild/darwin-arm64': '@esbuild/linux-arm64'
+
 devDependencies:
   concurrently:
     specifier: ^7.6.0
